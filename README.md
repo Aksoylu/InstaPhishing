@@ -19,6 +19,10 @@ Main page is where our fools getting trapped . When they wrote their credentials
 When you wrote your **admin** credentials for loggin in, InstaPhishing will recognize you and navigate your browser to **/admin** page.
 In admin page, you can see user credentials that catched by InstaPhishing tool.
 
+Note that InstaPhishing has supporting country detection and multilanguage ability. So, InstaPhishing detects your language automatically (From IP Geolocation) and uses that language.
+
+English and Turkish languages added for now.
+
 ## Management
 
 <img src="media/config.png" alt="Config" width="60%"/>
