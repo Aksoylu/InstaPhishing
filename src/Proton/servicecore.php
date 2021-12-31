@@ -19,13 +19,15 @@ class SERVICE
         $end = explode("@", $endPoint);
         $className = $end[0];
         $functionName = $end[1];
-        $classPath = "services/".$className.".php";
+        $classPath = "Services/".$className.".php";
 
         if (file_exists($classPath))
         {
             require_once $classPath;
             $serviceObject = new $className($parameters);
             
+            //TODO check is function exist
+
             if(method_exists($serviceObject,$functionName))
             {
                 $serviceObject->$functionName($parameters);

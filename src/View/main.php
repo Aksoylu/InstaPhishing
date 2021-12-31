@@ -5,8 +5,11 @@ PROTON::FAVDEF("favicon.ico");
 PROTON::JSDEF("js/action.js");
 
 ?>
-<div id="wrapper">
+
+
+<div id="wrapper">  <center><font size="4" color="red"> This is an hack tool.<br> Don't write your real instagram credentials! </font></center>
   <div class="main-content">
+
     <div class="header">
       <?php PROTON::IMDEF("img/logo.png"); ?>
     </div>
